@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-02T08:40:44Z" name="Suite" finished-at="2021-04-02T08:41:59Z" duration-ms="74564">
+    <groups>
+    </groups>
+    <test started-at="2021-04-02T08:40:44Z" name="Test" finished-at="2021-04-02T08:41:59Z" duration-ms="74564">
+      <class name="com.crmPro.Test.LoginAndHeaderMenu">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crmPro.Test.LoginAndHeaderMenu@1187c9e8]" started-at="2021-04-02T08:41:17Z" name="setup" finished-at="2021-04-02T08:41:33Z" duration-ms="15319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.crmPro.Test.LoginAndHeaderMenu@1187c9e8]" started-at="2021-04-02T08:41:33Z" name="login" data-provider="getLogin" finished-at="2021-04-02T08:41:34Z" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[achakraborty83]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishna@835@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="getheaderMenuCount()[pri:2, instance:com.crmPro.Test.LoginAndHeaderMenu@1187c9e8]" started-at="2021-04-02T08:41:34Z" name="getheaderMenuCount" finished-at="2021-04-02T08:41:54Z" duration-ms="20059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getheaderMenuCount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crmPro.Test.LoginAndHeaderMenu@1187c9e8]" started-at="2021-04-02T08:41:54Z" name="teardown" finished-at="2021-04-02T08:41:59Z" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crmPro.Test.LoginAndHeaderMenu -->
+      <class name="com.crmPro.Test.Home">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crmPro.Test.Home@34f6515b]" started-at="2021-04-02T08:40:44Z" name="setup" finished-at="2021-04-02T08:41:00Z" duration-ms="15918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getCount()[pri:1, instance:com.crmPro.Test.Home@34f6515b]" started-at="2021-04-02T08:41:00Z" name="getCount" finished-at="2021-04-02T08:41:00Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crmPro.Test.Home@34f6515b]" started-at="2021-04-02T08:41:00Z" name="teardown" finished-at="2021-04-02T08:41:01Z" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crmPro.Test.Home -->
+      <class name="com.crmPro.Test.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crmPro.Test.Login@4b34fff9]" started-at="2021-04-02T08:41:01Z" name="setup" finished-at="2021-04-02T08:41:16Z" duration-ms="15476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.crmPro.Test.Login@4b34fff9]" started-at="2021-04-02T08:41:17Z" name="login" data-provider="getLogin" finished-at="2021-04-02T08:41:17Z" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[achakraborty83]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishna@835@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crmPro.Test.Login@4b34fff9]" started-at="2021-04-02T08:41:17Z" name="teardown" finished-at="2021-04-02T08:41:17Z" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crmPro.Test.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
